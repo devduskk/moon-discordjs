@@ -1,5 +1,5 @@
 const Event = require('./../../structures/Event');
-let ms = require('ms');
+const ms = require('ms');
 
 module.exports = class extends Event {
 
