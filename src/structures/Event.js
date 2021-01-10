@@ -8,6 +8,6 @@ module.exports = class Event {
     }
 
     async run(...args) {
-        throw new Error(`O método de inicialização não foi especificado no evento ${this.name}.`)
+        throw new Error(`The boot method wasnt specified in the event ${this.name}.`)
     }
 }
