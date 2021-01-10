@@ -7,8 +7,8 @@ module.exports = class Command {
         this.name = options.name || name;
         this.aliases = options.aliases || [];
         this.enabled = options.enabled || false;
-        this.description = options.description || "Descrição inespecificada.";
-        this.category = options.category || "Miscelâneo.";
+        this.description = options.description || "No description.";
+        this.category = options.category || "Other";
         this.usage = `${this.client.prefix}${this.name}: ${options.usage || ''}`.trim();
         this.botPermissions = new Array();
         this.memberPermissions = new Array();
@@ -20,6 +20,6 @@ module.exports = class Command {
     }
 
     async run(message, args) {
-        throw new Error(`O comando ${this.name} não especificou um método de inicialização.`)
+        throw new Error(`Command ${this.name} didn't specify an initialization method.`)
     }
 }
