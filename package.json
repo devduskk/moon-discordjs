@@ -1,5 +1,5 @@
 {
-  "name": "DivertJS",
+  "name": "MoonBOT",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "async_hooks": "^1.0.0",
-    "discord-player": "^3.0.3",
     "discord.js": "^12.5.1",
     "glob": "^7.1.6",
     "moment": "^2.29.1",
@@ -23,11 +22,6 @@
     "path": "^0.12.7",
     "sqlite3": "^5.0.0",
     "typeorm": "^0.2.29",
-    "util": "^0.12.3",
-    "yt-search": "^2.5.1",
-    "ytdl-core": "^4.2.1",
-    "ytdl-core-discord": "^1.2.4",
-    "ytsearcher": "^1.2.3",
     "quick.db": "^7.1.3"
   }
 }
